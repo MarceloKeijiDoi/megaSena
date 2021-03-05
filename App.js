@@ -16,7 +16,7 @@ export default class App extends React.Component {
     this.setState({ sorteador: this.state.sorteador.concat(num) })
   }
 
-  // Atualizando o contador
+  // Contador Atualiza
   atualiza(num) {
     this.setState({ contador: this.state.contador = num })
     //this.setState( {sorteio: this.state.contador = num})
